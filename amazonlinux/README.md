@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `windows-amd64` builds of [the `amazonlinux` official image](https://hub.docker.com/_/amazonlinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,10 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0.20201218.1`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/584b9a3f1611acf52224ae4697bef392e7711956/Dockerfile)
--	[`2.0.20201218.1-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/50b4e736c72d0bde26f198b08a43319c23009dd8/Dockerfile)
--	[`2018.03.0.20201209.1`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/78075a2c6ac2675f023549e8fe1ea6d4eb95f544/Dockerfile)
--	[`2018.03.0.20201209.1-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/81297c1e32c07e64a0f50b9cd7ed5f61fe6df70a/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `windows-amd64` ARCHITECTURE
+
+[![winamd64/amazonlinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/amazonlinux.svg?label=winamd64/amazonlinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/amazonlinux/)
 
 # Quick reference (cont.)
 
